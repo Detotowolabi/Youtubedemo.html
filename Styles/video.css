@@ -1,0 +1,74 @@
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+
+.Username-text {
+  font-size: 12px;
+  color: gray;
+  font-style: solid;
+  width: 259px;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  display: inline-block;
+  cursor: pointer;}
+
+.Video-Stats1,
+.Video-Stats2,
+.Video-Stats { width: 350px;
+  font-size: 12px;
+  color: gray;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  font-style: solid;
+  display: inline-block;}
+
+.video-info-grid { column-gap: 5px;
+  row-gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+.profile-picture {
+  width: 36px;
+  border-radius: 200px;
+  cursor: pointer;
+}
+
+.video-des {
+  font-weight: bold;
+  font-style: solid;
+  font-size: 14px;
+  margin-top: 0px;
+  width: 250px;
+  cursor: pointer;
+}   
+
+  .thumbnail-row {
+    margin-bottom: 7px;
+    position: relative;
+    }
+
+.all-video-container {
+display: grid;
+grid-template-columns: 300px 300px 300px 300px;
+column-gap: 16px;
+row-gap: 20px;
+}
+
+@media (max-width: 750px) {
+  .all-video-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.video-time {
+  background-color: black;
+  position: absolute;
+  color: white;
+  bottom: 12px;
+  right: 10px;
+  font-size: 12px;
+  font-family: roboto, arial;
+  padding: 4px 4px 4px 4px;
+  border-radius: 2px;
+}
