@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head> <title>Position Demo</title>
+
+  <style>
+
+body {
+  height: 1000px;
+  margin: 1px;
+}
+
+.header {
+  background-color: rgb(71, 71, 71);
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 500;
+}
+
+.left-section {
+  width: 400px;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.right-section {
+  width: 400px;
+  margin-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.center-section { height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.fashion-button {
+  color: white;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.fashion-button:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+
+.football-button,
+.celeb-button,
+.tech-button,
+.contact-button,
+.home-button {
+  color: white;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.home-button:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+.football-button:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+.celeb-button:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+.tech-button:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+.contact-button:hover {
+text-decoration: underline;
+cursor: pointer;
+}
+
+.search-bar {
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  flex: 1;
+  width: 85px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.search-bar::placeholder {
+  color: black;
+  font-size: 15px;
+}
+
+.side-bar { background-color: white;
+  position: fixed;
+  top: 76px;
+  left: 0px;
+  bottom: 0px;
+  width: 90px;
+  border-left: 0px;
+  border-width: 1px;
+  border-color: rgb(71, 71, 71);
+  border-style: solid;
+  z-index: 50;
+
+}
+
+.red {
+  background-color: red;
+  height: 200px;
+  width: 250px;
+  position: relative;
+  display: inline-block;
+}
+
+.timer {
+  background-color: black;
+  width: 38px;
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.column-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  margin-left: 100px;
+  margin-top: 90px;
+  max-width: 1px;
+  z-index: 1;
+}
+
+  </style>
+</head>
+
+
+<body>
+<div class="header">
+
+    <div class="left-section">
+      <div class="home-button">Home</div>
+    <div class="fashion-button">Fashion News</div>
+    <div class="football-button">Football News</div></div>
+
+    <div class="center-section">
+      <input class="search-bar" type="text-box" placeholder="Search here ">
+    </div>
+
+    <div class="right-section">
+      <div class="celeb-button">Celebrity Gist</div>
+      <div class="tech-button">Tech News</div>
+      <div class="contact-button">Contact Us</div></div>
+  </div>
+  </div>
+</div>
+
+<div class="side-bar">
+  side bar
+</div>
+
+<div class="column-container">
+  <div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+  <div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+<div class="red">
+  <div class="timer">20:05</div>
+</div>
+
+    <div class="red">
+      <div class="timer">20:05</div>
+    </div>
+
+  <div class="red">
+    <div class="timer">20:05</div>
+  </div>
+
+    <div class="red">
+      <div class="timer">20:05</div>
+    </div>
+
+    <div class="red">
+      <div class="timer">20:05</div>
+    </div>
+
+    <div class="red">
+      <div class="timer">20:05</div>
+    </div>
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+</body>
+</htm
